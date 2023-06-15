@@ -13,7 +13,7 @@ export default function Card(props){
             <div className="card--infos">
                 <FontAwesomeIcon icon={faLocationDot} className="card--location-icon" />
                 <h2 className="card--location">{props.location}</h2>
-                <a className="card--location-url" href={props.google_maps_link}  target="_blank" >
+                <a className="card--location-url" href={props.google_maps_link}  >
                   View on Google Maps
                 </a>
 
