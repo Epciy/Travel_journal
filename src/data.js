@@ -1,4 +1,4 @@
-export default [
+const data= [
     {
         id:1,
         title:"Interlaken",
@@ -41,3 +41,4 @@ export default [
         image_Url:"https://source.unsplash.com/8PJanMchYCY",
     }
 ]
+export default data;
